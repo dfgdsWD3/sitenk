@@ -1,0 +1,251 @@
+/* Основные стили */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F4F6; /* Светло-серый */
+    color: #1E3A8A; /* Глубокий синий */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1E3A8A; /* Глубокий синий */
+    color: #FFFFFF; /* Белый */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header h1 span {
+    color: #FF6F61; /* Нежно-розовый акцент */
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+nav {
+    background-color: #1E3A8A; /* Глубокий синий */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Белый */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FF6F61; /* Нежно-розовый */
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-with-bg {
+    background-color: #FFFFFF; /* Белый */
+    border-radius: 10px;
+    margin: 20px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #1E3A8A; /* Глубокий синий */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.feature {
+    text-align: center;
+    flex: 1 1 300px;
+    padding: 20px;
+    background-color: #FFFFFF; /* Белый */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.feature i {
+    font-size: 2rem;
+    color: #FF6F61; /* Нежно-розовый */
+    margin-bottom: 10px;
+}
+
+#contact {
+    background-color: #FFFFFF;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.contact-info i {
+    color: #FF6F61; /* Нежно-розовый */
+    margin-right: 10px;
+}
+
+.contact-info a {
+    color: #1E3A8A; /* Глубокий синий */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #FF6F61; /* Нежно-розовый */
+}
+
+#social {
+    background-color: #FFFFFF;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: #1E3A8A; /* Глубокий синий */
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #FF6F61; /* Нежно-розовый */
+}
+
+.social-links i {
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #1E3A8A; /* Глубокий синий */
+    color: #FFFFFF; /* Белый */
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer .social-links a {
+    color: #FFFFFF; /* Белый */
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #FF6F61; /* Нежно-розовый */
+}
+/* Стили для формы заказа */
+#order-form {
+    background-color: #FFFFFF;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#order-form h2 {
+    color: #1E3A8A; /* Глубокий синий */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#order-form .form-group {
+    margin-bottom: 15px;
+}
+
+#order-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1E3A8A; /* Глубокий синий */
+}
+
+#order-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1E3A8A; /* Глубокий синий */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#order-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF6F61; /* Нежно-розовый */
+    color: #FFFFFF; /* Белый */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#order-form button:hover {
+    background-color: #E65A50; /* Темнее розовый */
+}
